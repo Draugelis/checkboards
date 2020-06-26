@@ -3,7 +3,7 @@
 ***
 
 ### Usage in Command Line:
-$ python3 yeet.py -flag [args]
+```$ python3 yeet.py -flag [args]```
 
 #### Flags: 
 * -a - variables are passed via command line as arguments
