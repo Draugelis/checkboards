@@ -1,4 +1,6 @@
-# Python script that creates checkboard pattern images
+## Python script that creates checkboard pattern images
+
+***
 
 ### Usage in Command Line:
 $ python3 yeet.py -flag [args]
