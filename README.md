@@ -1,17 +1,18 @@
 # Python script that creates checkboard pattern images
 
 ### Usage in Command Line:
-⋅⋅⋅$python3 yeet.py -flag [args]
+$ python3 yeet.py -flag [args]
 
 #### Flags: 
 * -a - variables are passed via command line as arguments
 * -i - variables are entered via command line prompts
 
 #### Variables
-⋅⋅⋅ when using -a flag they are passed in the same sequence
-⋅⋅⋅ bg_color/sq_color type depends on used flag
-⋅⋅⋅ with -a string could be used at this time (gotta fix this)
-⋅⋅⋅ with -i flag both types could be used 
+
+...when using -a flag they are passed in the same sequence
+...bg_color/sq_color type depends on used flag
+...with -a string could be used at this time (gotta fix this)
+...with -i flag both types could be used 
 
 Name 	 | Description 				 | Type
 ---------|---------------------------|-------
