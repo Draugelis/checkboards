@@ -1,28 +1,22 @@
-## Python script that creates checkboard pattern images
+## Utility tool for creating checkerboard pattern images
 
-***
+### Usage
+```$ python3 main [options] [params]```
 
-### Usage in Command Line:
-```$ python3 yeet.py -flag [args]```
+### Options
+```-f / --file```           reading params from file       [string] (default = None)
+```-n / --name```           image file name with extension [string] (default = uuid4)
+```-x / --width```          image width in squares         [int]    (default = 8)
+```-y / --height```         image height in squares        [int]    (default = 8)
+```-s / --square```         square side length             [int]    (default = 32)
+```-bg / --background```    image background color         [string] (default = 'white')
+```-fg / --foreground```    square color                   [string] (default = 'black')
 
-#### Flags: 
-* -a - variables are passed via command line as arguments
-* -i - variables are entered via command line prompts
+### Input file (with -f options)
+##### {name} {width} {height} {square} {background} {foreground}
 
-#### Variables
-
->when using -a flag they are passed in the same sequence.
-
->bg_color/sq_color type depends on used flag.
->with -a string could be used at this time (gotta fix this).
->with -i flag both types could be used.
-
-Name 	 | Description 				 | Type
----------|---------------------------|-------
-w        |   image width in squares  | int
-h        |   image heigth in squares | int
-sq_size  |   square size 			 | int
-name     |   name of the output file | string
-bg_color |   base color in RGB		 | string/tuple
-sq_color |   square color in RGB	 | string/tuple
-
+```
+first.png 16 32 8 yellow blue 
+second.jpg 16 32 8 red blue 
+third.png 64 64 8 red blue 
+```
