@@ -25,12 +25,12 @@ def get_params(args):
         'foreground': 'black'
     }
 
-    if   args.width:      params['width']      = args.width[0]
-    elif args.height:     params['height']     = args.height[0]
-    elif args.square:     params['square']     = args.square[0]
-    elif args.name:       params['name']       = args.name[0]
-    elif args.background: params['background'] = args.background[0]
-    elif args.foreground: params['foreground'] = args.foreground[0]
+    if args.width:      params['width']      = args.width[0]
+    if args.height:     params['height']     = args.height[0]
+    if args.square:     params['square']     = args.square[0]
+    if args.name:       params['name']       = args.name[0]
+    if args.background: params['background'] = args.background[0]
+    if args.foreground: params['foreground'] = args.foreground[0]
 
     return params
 

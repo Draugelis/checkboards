@@ -1,2 +1,4 @@
 output/
 input.txt
+*.png
+.DS_Store
